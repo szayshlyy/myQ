@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Queue of Questions</title>
+    <link rel="stylesheet" type="text/css" href="myQ.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>The Queue of Questions </h1>
+      <section id= "mainAnswer">
+        <h2>Answer A Questions</h2>
+          <p>Try answering a few questions.</p>
+          <button id="getQuestion">Get Next Question</button>
+          <p>Question will display here:</p>
+          <div id = "showQuestion"></div>
+          <input id="userAnswer" type="text" placeholder="Write your answer here"></input>
+          <button id="submitAnswer">Submit</button>
+      </section>
+
+      <section id ="mainQuestion">
+        <h2>Ask A Question </h2>
+        <p>What would you like to ask? This is your place to submit a question. They will be answered in the order received</p>
+        <input id= "question" type="text" placeholder="Question"></input>
+        <button id="submitOne">Enter!</button>
+      </section>
+
+      <section id ="mainOutput">
+        <h2>See Answers To Questions</h2>
+          <p>See if your question was answered below</p>
+          <ol id= "displayQuestion">
+          </ol>
+          <ol id= "displayAsnwer">
+          </ol>
+      </section>
+    </main>
+    <footer>
+      <p>The End </p>
+    </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="myQ.js"></script>
+  </body>
+</html>
