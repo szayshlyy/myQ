@@ -1,0 +1,93 @@
+body {
+  font-family: monaco;
+}
+
+li {
+  display: inline-block;
+  padding: 0 1em 0 1em ;
+}
+
+main {
+  background-image:url('http://www.photography-match.com/views/images/gallery/Landscape_55.jpg');
+  background-repeat: no-repeat;
+  padding-top: 1em;
+}
+
+section {
+  display: inline-block;
+  background-color:#F0F8FF;
+  opacity:.8;
+}
+
+h1{
+  text-align: center;
+  background-color: #F0F8FF;
+  opacity:.8;
+  height: 3em;
+  width:12em;
+  border-radius: 20em;
+  margin-left: 25%;
+}
+
+
+p {
+  display: block;
+  font-family: courier new;
+}
+
+#mainQuestion {
+  height: 22em ;
+  width:22em;
+  text-align: center;
+  border-radius: 15em;
+  margin-left: 3%;
+  margin-top: 10em;
+  float:left;
+}
+
+#mainQuestion h2 {
+  padding-top: 3em;
+}
+
+#mainQuestion p {
+  width: 20em;
+  padding-left: 1em;
+}
+
+#mainAnswer {
+  height: 27em ;
+  width:27em;
+  margin: 2%;
+  text-align: center;
+  border-radius: 15em;
+  float: right;
+  margin-right: 18%;
+}
+
+#mainAnswer h2 {
+  padding-top: 3em;
+}
+
+#mainOutput {
+  clear: both;
+  display: block;
+  text-align: center;
+  margin-bottom: 3em;
+  margin-left: 19%;
+  height: 32em ;
+  width: 32em;
+  text-align: center;
+  border-radius: 15em;
+}
+
+#mainOutput h2 {
+  padding-top:3em;
+}
+
+ol {
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
+}
